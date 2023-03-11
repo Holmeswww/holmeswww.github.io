@@ -1,12 +1,6 @@
-- title: General Information
+- title: Short Bio
   type: map
-  contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+  contents: I have experience in Computer Vision, Reinforcement Learning, Generative Models, Sequence Modelling, and Self-supervised Learning. I am interested in reinforcement learning informed by natural language. My long-term research goal is to enable RL agents to benefit from human written guides or manuals.
 
 - title: Education
   type: time_table
