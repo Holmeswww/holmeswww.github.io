@@ -5,27 +5,24 @@
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD in Machine Learning
+      institution: Carnegie Mellon University, Pittsburgh, PA, USA
+      year: 2021 - Current
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Advisor: Dr. Tom Mitchell, Dr. Yuanzhi Li
+    - title: B.S. in Computer Science
+      institution: Carnegie Mellon University, Pittsburgh, PA, USA
+      year: 2017 - 2020
       description:
-        - Description 1.
-        - Description 2.
+        - B.S. in Computer Science (Major GPA 3.91/4.0)
+        - Minor in Machine Learning (Minor GPA 4.0/4.0)
+        - Department Honors and University Honors
+        - Alumni Award for Undergraduate Excellence
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
+    - title: Research Intern
       institution: Institute for Advanced Study, Princeton University
       year: 1933 - 1955
       description:
