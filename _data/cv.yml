@@ -96,12 +96,14 @@
       press: Singularity Hub
       press_url: https://singularityhub.com/
       twitter: https://twitter.com/singularityhub/status/1634351007114092546?s=20
+      author: Edd Gent
     - title: AI masters video game 6000 times faster by reading the instructions
       url: https://www.newscientist.com/article/2358953-ai-masters-video-game-6000-times-faster-by-reading-the-instructions/
       date: 2023-03-04
       press: New Scientist
       press_url: https://www.newscientist.com/
       twitter: https://twitter.com/newscientist/status/1631958982871994369?s=20
+      author: Matthew Sparkes
 
 - title: Honors and Awards
   type: time_table

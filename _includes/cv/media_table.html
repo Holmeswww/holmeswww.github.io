@@ -16,7 +16,7 @@
             </h6>
             {% endif %}
             {% if content.date %}
-            <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem;">{{ content.date }}</h6>
+            <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem;">{{ content.date }} {% if content.date %}{{ content.author }}{% endif %}</h6>
             {% endif %}
             {% if content.description %}
               <ul class="items">
