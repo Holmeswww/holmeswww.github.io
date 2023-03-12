@@ -63,7 +63,11 @@ pagination:
         {% endif %}
       </h3>
       {% if post.twitter %}
-        {% twitter post.twitter %}
+        {% if site.enable_darkmode %} 
+          {% twitter post.twitter theme="dark" %}
+        {% else %}
+          {% twitter post.twitter %}
+        {% endif %}
       {% else %}
         <p>{{ post.description }}</p>
       {% endif %}
