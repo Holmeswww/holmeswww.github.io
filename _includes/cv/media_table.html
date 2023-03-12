@@ -2,19 +2,21 @@
     {% for content in entry.contents %}
       <li class="list-group-item">
         <div class="row">
-          {% if content.date %}
+          {% if content.press %}
             <div class="col-xs-2 cl-sm-2 col-md-2 text-center" style="width: 75px;">
-              <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px;">
-                {{ content.date }}
+              <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" href="{{ content.press_url }}" style="min-width: 75px;">
+                {{ content.press }}
               </span>
             </div>
           {% endif %}
           <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
             {% if content.title %}
-            <h6 class="title font-weight-bold ml-1 ml-md-4">{{content.title}}</h6>
+            <h6 class="title font-weight-bold ml-1 ml-md-4">
+                <a href="{{ content.url }}">{{ content.title }}</a>
+            </h6>
             {% endif %}
-            {% if content.press %}
-            <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem;">{{content.press}}</h6>
+            {% if content.date %}
+            <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem;">{{ content.date }}</h6>
             {% endif %}
             {% if content.description %}
               <ul class="items">
