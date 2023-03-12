@@ -62,6 +62,9 @@ pagination:
           {% endif %}
         {% endif %}
       </h3>
+      {% if post.twitter %}
+      {% twitter post.twitter %}
+      {% endif %}
       <p>{{ post.description }}</p>
       <p class="post-meta">
         {{ read_time }} min read &nbsp; &middot; &nbsp;
