@@ -3,7 +3,10 @@
   title={Self-supervised Learning from a Multi-view Perspective},
   author={Tsai, Yao-Hung Hubert and Wu, Yue and Salakhutdinov, Ruslan and Morency, Louis-Philippe},
   booktitle={ICLR},
-  year={2021}
+  year={2021},
+  abstract={As a subset of unsupervised representation learning, self-supervised representation learning adopts self-defined signals as supervision and uses the learned representation for downstream tasks, such as object detection and image captioning. Many proposed approaches for self-supervised learning follow naturally a multi-view perspective, where the input (e.g., original images) and the self-supervised signals (e.g., augmented images) can be seen as two redundant views of the data. Building from this multi-view perspective, this paper provides an information-theoretical framework to better understand the properties that encourage successful self-supervised learning. Specifically, we demonstrate that self-supervised learned representations can extract task-relevant information and discard task-irrelevant information. Our theoretical framework paves the way to a larger space of self-supervised learning objective design. In particular, we propose a composite objective that bridges the gap between prior contrastive and predictive learning objectives, and introduce an additional objective term to discard task-irrelevant information. To verify our analysis, we conduct controlled experiments to evaluate the impact of the composite objectives. We also explore our framework's empirical generalization beyond the multi-view perspective, where the cross-view redundancy may not be clearly observed.},
+  abbr={ICLR},
+  pdf={https://arxiv.org/pdf/2006.05576.pdf},
 }
 @inproceedings{sartoretti2019distributed,
   bibtex_show={true},
@@ -12,7 +15,10 @@
   booktitle={DARS},
   pages={35--49},
   year={2019},
-  organization={Springer}
+  organization={Springer},
+  abstract={Inspired by recent advances in single agent reinforcement learning, this paper extends the single-agent asynchronous advantage actor-critic (A3C) algorithm to enable multiple agents to learn a homogeneous, distributed policy, where agents work together toward a common goal without explicitly interacting. Our approach relies on centralized policy and critic learning, but decentralized policy execution, in a fully-observable system. We show that the sum of experience of all agents can be leveraged to quickly train a collaborative policy that naturally scales to smaller and larger swarms. We demonstrate the applicability of our method on a multi-robot construction problem, where agents need to arrange simple block elements to build a user-specified structure. We present simulation results where swarms of various sizes successfully construct different test structures without the need for additional training.},
+  pdf={http://biorobotics.ri.cmu.edu/papers/paperUploads/DARS2018_DistributedAssembly_final831.pdf},
+  preview={https://www.sartoretti.science/img/projects/Homogeneous-MultiAgent.gif},
 }
 @inproceedings{wu2021uncertainty,
   bibtex_show={true},
@@ -21,7 +27,11 @@
   booktitle={ICML},
   pages={11319--11328},
   year={2021},
-  organization={PMLR}
+  organization={PMLR},
+  abstract={Offline Reinforcement Learning promises to learn effective policies from previously-collected, static datasets without the need for exploration. However, existing Q-learning and actor-critic based off-policy RL algorithms fail when bootstrapping from out-of-distribution (OOD) actions or states. We hypothesize that a key missing ingredient from the existing methods is a proper treatment of uncertainty in the offline setting. We propose Uncertainty Weighted Actor-Critic (UWAC), an algorithm that models the epistemic uncertainty to detect OOD state-action pairs and down-weights their contribution in the training objectives accordingly. Implementation-wise, we adopt a practical and effective dropout-based uncertainty estimation method that introduces very little overhead over existing RL algorithms. Empirically, we observe that UWAC substantially improves model stability during training. In addition, UWAC out-performs existing offline RL methods on a variety of competitive tasks, and achieves significant performance gains over the state-of-the-art baseline on datasets with sparse demonstrations collected from human experts.},
+  pdf={https://arxiv.org/pdf/2105.08140.pdf},
+  abbr={ICML},
+  preview={UWAC.gif},
 }
 @article{sartoretti2019distributed,
   bibtex_show={true},
@@ -40,14 +50,21 @@
   journal={NeurIPS},
   volume={33},
   pages={5729--5740},
-  year={2020}
+  year={2020},
+  abbr={NeurIPS},
+  pdf={https://arxiv.org/pdf/2006.06900.pdf},
+  abstract={Despite success on a wide range of problems related to vision, generative adversarial networks (GANs) often suffer from inferior performance due to unstable training, especially for text generation. To solve this issue, we propose a new variational GAN training framework which enjoys superior training stability. Our approach is inspired by a connection of GANs and reinforcement learning under a variational perspective. The connection leads to (1) probability ratio clipping that regularizes generator training to prevent excessively large updates, and (2) a sample re-weighting mechanism that improves discriminator training by downplaying bad-quality fake samples. Moreover, our variational GAN framework can provably overcome the training issue in many GANs that an optimal discriminator cannot provide any informative gradient to training generator. By plugging the training approach in diverse state-of-the-art GAN architectures, we obtain significantly improved performance over a range of tasks, including text generation, text style transfer, and image generation.},
+  preview={https://github.com/Holmeswww/PPOGAN/raw/master/img/img.png},
 }
 @article{li2020unsupervised,
   bibtex_show={true},
   title={Unsupervised domain adaptation for visual navigation},
   author={Li, Shangda and Chaplot, Devendra Singh and Tsai, Yao-Hung Hubert and Wu, Yue and Morency, Louis-Philippe and Salakhutdinov, Ruslan},
   journal={Deep Reinforcement Learning Workshop, NeurIPS},
-  year={2020}
+  year={2020},
+  pdf={https://arxiv.org/pdf/2010.14543.pdf},
+  abstract={Advances in visual navigation methods have led to intelligent embodied navigation agents capable of learning meaningful representations from raw RGB images and perform a wide variety of tasks involving structural and semantic reasoning. However, most learning-based navigation policies are trained and tested in simulation environments. In order for these policies to be practically useful, they need to be transferred to the real-world. In this paper, we propose an unsupervised domain adaptation method for visual navigation. Our method translates the images in the target domain to the source domain such that the translation is consistent with the representations learned by the navigation policy. The proposed method outperforms several baselines across two different navigation tasks in simulation. We further show that our method can be used to transfer the navigation policies learned in simulation to the real world.},
+  preview={PBIT.gif},
 }
 @inproceedings{wu2017license,
   bibtex_show={true},
@@ -64,7 +81,10 @@
   author={Wu, Yue and Fan, Yewen and Liang, Paul Pu and Azaria, Amos and Li, Yuanzhi and Mitchell, Tom M},
   journal={arXiv preprint arXiv:2302.04449},
   year={2023},
-  selected={true}
+  selected={true},
+  abstract={High sample complexity has long been a challenge for RL. On the other hand, humans learn to perform tasks not only from interaction or demonstrations, but also by reading unstructured text documents, e.g., instruction manuals. Instruction manuals and wiki pages are among the most abundant data that could inform agents of valuable features and policies or task-specific environmental dynamics and reward structures. Therefore, we hypothesize that the ability to utilize human-written instruction manuals to assist learning policies for specific tasks should lead to a more efficient and better-performing agent. We propose the Read and Reward framework. Read and Reward speeds up RL algorithms on Atari games by reading manuals released by the Atari game developers. Our framework consists of a QA Extraction module that extracts and summarizes relevant information from the manual and a Reasoning module that evaluates object-agent interactions based on information from the manual. Auxiliary reward is then provided to a standard A2C RL agent, when interaction is detected. When assisted by our design, A2C improves on 4 games in the Atari environment with sparse rewards, and requires 1000x less training frames compared to the previous SOTA Agent 57 on Skiing, the hardest game in Atari.},
+  preview={https://singularityhub.com/wp-content/uploads/2023/03/atari-video-game-cartridges-stacked.jpeg},
+  pdf={https://arxiv.org/pdf/2302.04449.pdf},
 }
 @inproceedings{wutackling,
   title={Tackling AlfWorld with Action Attention and Common Sense from Language Models},
