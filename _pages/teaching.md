@@ -7,6 +7,6 @@ nav: true
 nav_order: 3
 ---
 
-Teaching Assistant for 10-315 Introduction to Machine Learning, 2019-spring
+* Teaching Assistant for 10-315 Introduction to Machine Learning, 2019-spring
 
-Teaching Assistant for 10-315 Introduction to Machine Learning, 2019-fall
+* Teaching Assistant for 10-315 Introduction to Machine Learning, 2019-fall
