@@ -87,15 +87,21 @@
           contents:
             - <a href="https://www.sartoretti.science/">Dr. Guillaume Sartoretti</a> and <a href="https://www.cs.cmu.edu/~./choset/">Dr. Howie Choset</a>
 
-- title: Press Coverage
-  type: time_table
+- title: Media Coverage
+  type: media_table
   contents:
-    - title: <a href="https://singularityhub.com/2023/03/10/an-ai-learned-to-play-atari-6000-times-faster-by-reading-the-instructions/">An AI Learned to Play Atari 6,000 Times Faster by Reading the Instructions</a>
-      year: 2023
-      description: <a href="https://singularityhub.com/">Singularity Hub</a>
-    - title: <a href="https://www.newscientist.com/article/2358953-ai-masters-video-game-6000-times-faster-by-reading-the-instructions/">An AI Learned to Play Atari 6,000 Times Faster by Reading the Instructions</a>
-      year: 2023
-      description: <a href="https://www.newscientist.com/">New Scientist</a>
+    - title: An AI Learned to Play Atari 6,000 Times Faster by Reading the Instructions
+      url: https://singularityhub.com/2023/03/10/an-ai-learned-to-play-atari-6000-times-faster-by-reading-the-instructions/
+      date: 2023-03-10
+      press: Singularity Hub
+      press_link: https://singularityhub.com/
+      twitter: https://twitter.com/singularityhub/status/1634351007114092546?s=20
+    - title: AI masters video game 6000 times faster by reading the instructions
+      url: https://www.newscientist.com/article/2358953-ai-masters-video-game-6000-times-faster-by-reading-the-instructions/
+      date: 2023-03-10
+      press: New Scientist
+      press_link: https://www.newscientist.com/
+      twitter: https://twitter.com/newscientist/status/1631958982871994369?s=20
 
 - title: Honors and Awards
   type: time_table
