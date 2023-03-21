@@ -247,7 +247,7 @@ jekyll-archives:
     tag: '/media/tag/:name/'
     category: '/media/category/:name/'
 
-display_tags: ['magazine', 'website'] # this tags will be dispalyed on the front page of your blog
+display_tags: ['magazine', 'newspaper', 'website'] # this tags will be dispalyed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
