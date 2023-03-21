@@ -69,6 +69,13 @@
 - title: Media Coverage
   type: media_table
   contents:
+    - title: AI gamers benefit from reading the instruction manual first
+      url: https://nationalpost.com/news/world/ai-gamers-benefit-from-reading-the-instruction-manual-first
+      date: 2023-03-20
+      press: National Post
+      press_url: https://nationalpost.com/
+      twitter: 
+      author: Chris Knight
     - title: An AI Learned to Play Atari 6,000 Times Faster by Reading the Instructions
       url: https://singularityhub.com/2023/03/10/an-ai-learned-to-play-atari-6000-times-faster-by-reading-the-instructions/
       date: 2023-03-10
