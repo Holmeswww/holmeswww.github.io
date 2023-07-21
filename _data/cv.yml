@@ -24,7 +24,7 @@
   type: experience_table
   contents:
     - title: Research Intern
-      institution: "Microsoft Research | Host: Dr. Yuanzhi Li and Dr. Sébastien Bubeck"
+      institution: "Microsoft Research | Host: <a href="https://www.andrew.cmu.edu/user/yuanzhil/">Dr. Yuanzhi Li</a> and <a href="http://sbubeck.com/">Dr. Sébastien Bubeck</a>
       year: Summer 2023
       description:
         - GPT...
