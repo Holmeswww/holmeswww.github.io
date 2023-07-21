@@ -1,7 +1,7 @@
 - title: Short Bio
   type: text
   contents: 
-    - I have experience in Vision, RL, Generative Models, Sequence Models, Self-supervised Learning, and GCNs. I currently work extensively with large language models and reinforcement learning.<br>I am interested in solving sequential decision problems with information from unstructured natural language (e.g., instruction manuals or news articles).<br>My PhD research focuses on enabling RL agents to solve sandbox or strategy games by reading human written manuals.
+    - I have experience in Vision, RL, Generative Models, Sequence Models, Self-supervised Learning, and GCNs. I currently work extensively with large language models (LLMs) and reinforcement learning. I am interested in solving sequential decision problems with information from natural language. My PhD research focuses on enabling RL agents to solve sandbox or strategy games by reading human written manuals.
 
 - title: Education
   type: time_table
@@ -24,10 +24,15 @@
   type: experience_table
   contents:
     - title: Research Intern
+      institution: "Microsoft Research | Host: Dr. Yuanzhi Li and Dr. Sébastien Bubeck"
+      year: Summer 2023
+      description:
+        - GPT...
+    - title: Research Intern
       institution: "IBM Research | Host: Yuya Ong and Dr. Taiga Nakamura"
       year: Summer 2022
       description:
-        - Recommender systems for long texts. Interactive, user-defined recommendation systems.
+        - Graph-based recommender-system that operates unstructured long texts with the use of large language models. SOTA at competitive benchmarks.
     - title: Research Assistant
       institution: Machine Learning Department (in collaboration with Apple A.I. Research) | With <a href="https://www.cs.cmu.edu/~rsalakhu/">Dr. Ruslan Salakhutdinov</a> and Dr. Joshua M. Susskind
       year: 2021
