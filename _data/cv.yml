@@ -23,6 +23,13 @@
 - title: Research Experience
   type: experience_table
   contents:
+
+    - title: Consultant
+      institution: "Microsoft Research | Host: <a href=\"https://www.andrew.cmu.edu/user/yuanzhil/\">Dr. Yuanzhi Li</a> and <a href=\"http://sbubeck.com/\">Dr. Sébastien Bubeck</a>"
+      year: Fall 2023
+      description:
+        - GPT...
+
     - title: Research Intern
       institution: "Microsoft Research | Host: <a href=\"https://www.andrew.cmu.edu/user/yuanzhil/\">Dr. Yuanzhi Li</a> and <a href=\"http://sbubeck.com/\">Dr. Sébastien Bubeck</a>"
       year: Summer 2023
