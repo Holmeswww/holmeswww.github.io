@@ -24,7 +24,7 @@
   type: experience_table
   contents:
     - title: Research Intern
-      institution: "Microsoft Research | Host: <a href="https://www.andrew.cmu.edu/user/yuanzhil/">Dr. Yuanzhi Li</a> and <a href="http://sbubeck.com/">Dr. Sébastien Bubeck</a>
+      institution: "Microsoft Research | Host: <a href=\"https://www.andrew.cmu.edu/user/yuanzhil/\">Dr. Yuanzhi Li</a> and <a href=\"http://sbubeck.com/\">Dr. Sébastien Bubeck</a>"
       year: Summer 2023
       description:
         - GPT...
@@ -36,7 +36,7 @@
         - Graph-based recommender-system that operates unstructured long texts with the use of large language models. SOTA at competitive benchmarks.
   
     - title: Research Assistant
-      institution: Machine Learning Department (in collaboration with Apple A.I. Research) | With <a href="https://www.cs.cmu.edu/~rsalakhu/">Dr. Ruslan Salakhutdinov</a>, Dr. Shuangfei Zhai, and Dr. Joshua M. Susskind
+      institution: "Machine Learning Department (in collaboration with Apple A.I. Research) | With <a href=\"https://www.cs.cmu.edu/~rsalakhu/\">Dr. Ruslan Salakhutdinov</a>, Dr. Shuangfei Zhai, and Dr. Joshua M. Susskind"
       year: 2021
       description:
         - Offline RL and Energy Based Models formulation for sequence generation.
