@@ -28,17 +28,19 @@
       year: Summer 2023
       description:
         - GPT...
+  
     - title: Research Intern
       institution: "IBM Research | Host: Yuya Ong and Dr. Taiga Nakamura"
       year: Summer 2022
       description:
         - Graph-based recommender-system that operates unstructured long texts with the use of large language models. SOTA at competitive benchmarks.
+  
     - title: Research Assistant
-      institution: Machine Learning Department (in collaboration with Apple A.I. Research) | With <a href="https://www.cs.cmu.edu/~rsalakhu/">Dr. Ruslan Salakhutdinov</a> and Dr. Shuangfei Zhai and Dr. Joshua M. Susskind
+      institution: Machine Learning Department (in collaboration with Apple A.I. Research) | With <a href="https://www.cs.cmu.edu/~rsalakhu/">Dr. Ruslan Salakhutdinov</a>, Dr. Shuangfei Zhai, and Dr. Joshua M. Susskind
       year: 2021
       description:
         - Offline RL and Energy Based Models formulation for sequence generation.
-
+  
     - title: Research Intern
       institution: "Apple A.I. Research | Host: Dr. Hanlin Goh and Dr. Joshua M. Susskind"
       year: Summer 2020
