@@ -1,8 +1,8 @@
 github_users:
   - holmeswww
 
-# github_repos:
-#   - alshedivat/al-folio
+github_repos:
+  - microsoft/SmartPlay
 #   - twbs/bootstrap
 #   - jekyll/jekyll
 #   - jquery/jquery
