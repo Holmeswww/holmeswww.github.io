@@ -21,7 +21,7 @@ social: true  # includes social icons at the bottom of the page
 
 I am a PhD student in the [Machine Learning Department](https://www.ml.cmu.edu/) at [Carnegie Mellon University](https://www.cmu.edu/), currently advised by Dr. [Tom Mitchell](http://www.cs.cmu.edu/~tom/) and Dr. [Yuanzhi Li](https://www.andrew.cmu.edu/user/yuanzhil/). I also work closely with Dr. [Ruslan Salakhutdinov](https://www.cs.cmu.edu/~rsalakhu/) and Dr. [Amos Azaria](http://azariaa.com/).
 
-I currently work extensively with large language models and reinforcement learning. My PhD research focuses on enabling RL agents to solve sandbox or strategy games by reading human written manuals.
+I currently work extensively with large language models (LLMs) and reinforcement learning, on embodied reasoning, agent design, and RLHF.
 
 I am generally interested in solving sequential decision problems with information from unstructured natural language (e.g., instruction manuals or news articles).
 
