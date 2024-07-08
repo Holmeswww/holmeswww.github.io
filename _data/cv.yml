@@ -24,17 +24,23 @@
   type: experience_table
   contents:
 
+    - title: Quant Research Intern
+      institution: "Point72 Cubist"
+      year: Fall 2024
+      description:
+        - LLM for trading strategies.
+
     - title: Consultant
       institution: "Microsoft Research | Host: <a href=\"https://www.andrew.cmu.edu/user/yuanzhil/\">Dr. Yuanzhi Li</a> and <a href=\"http://sbubeck.com/\">Dr. Sébastien Bubeck</a>"
       year: Fall 2023
       description:
-        - GPT...
+        - GPT and LLAMA. LLM agents for games
 
     - title: Research Intern
       institution: "Microsoft Research | Host: <a href=\"https://www.andrew.cmu.edu/user/yuanzhil/\">Dr. Yuanzhi Li</a> and <a href=\"http://sbubeck.com/\">Dr. Sébastien Bubeck</a>"
       year: Summer 2023
       description:
-        - GPT...
+        - <a href=\"https://github.com/microsoft/SmartPlay\">https://github.com/microsoft/SmartPlay</a>
   
     - title: Research Intern
       institution: "IBM Research | Host: Yuya Ong and Dr. Taiga Nakamura"
